@@ -32,7 +32,8 @@ class MainActivity : AppCompatActivity() {
 
         button.setOnClickListener {
 
-            startActivity(Intent(this, RecyclerViewDemoActivity::class.java))
+            startActivity(Intent(this, PurchaseActivity::class.java))
+            //startActivity(Intent(this, RecyclerViewDemoActivity::class.java))
 
             //mLayoutManager.scrollToPositionWithOffset(2, 20);
 
